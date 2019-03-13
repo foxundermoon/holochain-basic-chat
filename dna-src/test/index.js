@@ -1,6 +1,7 @@
+const path = require('path')
 const { Config, Container, Scenario } = require('@holochain/holochain-nodejs')
 Scenario.setTape(require('tape'))
-const dnaPath = "dist/bundle.json"
+const dnaPath = path.join(__dirname, "../dist/dna-src.dna.json")
 const dna = Config.dna(dnaPath, 'happs')
 const agentAlice = Config.agent("alice")
 const instanceAlice = Config.instance(agentAlice, dna)
@@ -34,7 +35,7 @@ scenario.runTape('Can register a profile and retrieve', async (t, {alice}) => {
 })
 
 scenario.runTape('Can create a public stream with no other members and retrieve it', async (t, {alice}) => {
- 
+
   const register_result = await alice.callSync('chat', 'register', {name: 'alice', avatar_url: ''})
   console.log(register_result)
   t.equal(register_result.Ok.length, 63)
@@ -47,7 +48,7 @@ scenario.runTape('Can create a public stream with no other members and retrieve 
   console.log('all members:', get_all_members_result)
   let allMembers = get_all_members_result.Ok
   t.true(allMembers.length > 0, 'gets at least one member')
-  
+
   const get_result = await alice.callSync('chat', 'get_all_public_streams', {})
   console.log(get_result)
   t.deepEqual(get_result.Ok.length, 1)
@@ -93,5 +94,3 @@ scenario.runTape('Can create a public stream with some members', async (t, {alic
   let allMemberAddrs = get_all_members_result.Ok
   t.true(allMemberAddrs.length > 0, 'gets at least one member')
 })
-
-

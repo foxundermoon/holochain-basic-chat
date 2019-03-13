@@ -3,6 +3,7 @@
 # dependencies
 
 ui-src/build
+dna-src/dist/
 
 # testing
 /coverage
