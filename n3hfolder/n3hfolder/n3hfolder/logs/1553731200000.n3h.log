@@ -1,0 +1,70 @@
+~*~ 2019-3-27 20:04:47 - 1553731487145 (n3h-bin) [w] attempting read stdin
+~*~ 2019-3-27 20:04:47 - 1553731487149 (n3h-bin) [w] got stdin config!
+{"webproxy":{"connection":{"rsaBits":1024,"bind":["wss://0.0.0.0:0/"]},"wssAdvertise":"auto","wssRelayPeers":null}}
+~*~ 2019-3-27 20:04:47 - 1553731487213 (wss-connection) [i] listening at wss://127.0.0.1:55527/
+~*~ 2019-3-27 20:04:47 - 1553731487218 (p2p-backend) [i] peerId:
+HcSCIOiypVtkrqh6ouOqRMMJ4p95YezdrZtusx6VXRam3bwoznthkw83Xuvjmmr
+~*~ 2019-3-27 20:04:47 - 1553731487243 (wss-server-utils) [i] loaded rsa fingerprint
+7Tn89L0me1xWPuuYiOxVOZvgwV0=
+~*~ 2019-3-27 20:04:47 - 1553731487246 (wss-connection) [i] listening at wss://192.168.0.28:55528/
+~*~ 2019-3-27 20:04:47 - 1553731487248 (@hackmode@) [i] p2p bound
+wss://192.168.0.28:55528/?a=HcSCIOiypVtkrqh6ouOqRMMJ4p95YezdrZtusx6VXRam3bwoznthkw83Xuvjmmr
+~*~ 2019-3-27 20:04:47 - 1553731487153 (*n3hMode*) [i] @@ CONFIG @@
+{
+  "ipc": {
+    "connection": {
+      "rsaBits": 1024,
+      "bind": [
+        "wss://127.0.0.1:0/"
+      ]
+    }
+  },
+  "webproxy": {
+    "connection": {
+      "rsaBits": 1024,
+      "bind": [
+        "wss://0.0.0.0:0/"
+      ]
+    },
+    "wssAdvertise": "auto",
+    "wssRelayPeers": null
+  }
+}
+~*~ 2019-3-27 20:04:47 - 1553731487150 (n3h-bin) [i] executing mode HACK
+~*~ 2019-3-27 20:04:47 - 1553731487193 (wss-server-utils) [i] loaded rsa fingerprint
+7Tn89L0me1xWPuuYiOxVOZvgwV0=
+~*~ 2019-3-27 20:06:52 - 1553731612120 (n3h-bin) [w] attempting read stdin
+~*~ 2019-3-27 20:06:52 - 1553731612125 (n3h-bin) [w] got stdin config!
+{"webproxy":{"connection":{"rsaBits":1024,"bind":["wss://0.0.0.0:0/"]},"wssAdvertise":"auto","wssRelayPeers":null}}
+~*~ 2019-3-27 20:06:52 - 1553731612128 (*n3hMode*) [i] @@ CONFIG @@
+{
+  "ipc": {
+    "connection": {
+      "rsaBits": 1024,
+      "bind": [
+        "wss://127.0.0.1:0/"
+      ]
+    }
+  },
+  "webproxy": {
+    "connection": {
+      "rsaBits": 1024,
+      "bind": [
+        "wss://0.0.0.0:0/"
+      ]
+    },
+    "wssAdvertise": "auto",
+    "wssRelayPeers": null
+  }
+}
+~*~ 2019-3-27 20:06:52 - 1553731612196 (p2p-backend) [i] peerId:
+HcScjNcEA5wW874ru3KzWngj7SSdr8xmpH549reBe5fq67JoyBTNAvFNdbgoe9r
+~*~ 2019-3-27 20:06:52 - 1553731612221 (wss-server-utils) [i] loaded rsa fingerprint
+7Tn89L0me1xWPuuYiOxVOZvgwV0=
+~*~ 2019-3-27 20:06:52 - 1553731612224 (wss-connection) [i] listening at wss://192.168.0.28:56146/
+~*~ 2019-3-27 20:06:52 - 1553731612226 (@hackmode@) [i] p2p bound
+wss://192.168.0.28:56146/?a=HcScjNcEA5wW874ru3KzWngj7SSdr8xmpH549reBe5fq67JoyBTNAvFNdbgoe9r
+~*~ 2019-3-27 20:06:52 - 1553731612125 (n3h-bin) [i] executing mode HACK
+~*~ 2019-3-27 20:06:52 - 1553731612191 (wss-connection) [i] listening at wss://127.0.0.1:56145/
+~*~ 2019-3-27 20:06:52 - 1553731612167 (wss-server-utils) [i] loaded rsa fingerprint
+7Tn89L0me1xWPuuYiOxVOZvgwV0=
