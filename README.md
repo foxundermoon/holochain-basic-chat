@@ -4,6 +4,8 @@ First, and only the first time, run `setup.sh`
 
 Once you've run that once, you can run this anytime: `run.sh`
 
+hit Enter when it asks for the passphrase.
+
 Double click `Holochain | Chat` to open the app
 
 ## Built With
