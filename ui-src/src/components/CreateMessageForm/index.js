@@ -36,7 +36,7 @@ export const CreateMessageForm = ({
         </svg>
       </button>
       <button type='submit' onClick={() => getMessages(room.id)}>
-        <img src='refresh.svg' alt=''/>
+        <img src='refresh.png' alt=''/>
       </button>
     </form>
   ) : null

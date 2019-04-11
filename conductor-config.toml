@@ -40,7 +40,7 @@ id = "holo-chat"
 
 [[ui_bundles]]
 id = "main"
-root_dir = "./ui"
+root_dir = "./ui/build"
 hash = "Qm000"
 
 [[ui_interfaces]]
